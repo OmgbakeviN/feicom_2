@@ -8,6 +8,7 @@ import exercicesReducer from "@/features/crud/exercicesSlice";
 import lotsReducer from "@/features/crud/lotsSlice";
 import todosReducer from "@/features/crud/todosSlice";
 import visitesReducer from "@/features/crud/visitesSlice";
+import projetsReducer from "@/features/crud/projetsSlice";
 
 export const store = configureStore({
   reducer: {
@@ -20,6 +21,7 @@ export const store = configureStore({
     lots: lotsReducer,
     todos: todosReducer,
     visites: visitesReducer,
+    projets: projetsReducer,
   },
 });
 

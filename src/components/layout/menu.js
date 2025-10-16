@@ -9,7 +9,7 @@ export const MENUITEMS = [
         icon: "project",
         children: [
           { title: "Grid View", path: "/projects/grid", type: "link" },
-          { title: "Table View", path: "/feicom/projets", type: "link" },
+          { title: "Table View", path: "/projets-table", type: "link" },
         ],
       },
       { title: "Visit Reports", path: "/visites", type: "link" },
