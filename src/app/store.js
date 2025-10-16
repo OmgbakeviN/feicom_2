@@ -4,6 +4,9 @@ import agencesReducer from "@/features/crud/agencesSlice";
 import communesReducer from "@/features/crud/communesSlice";
 import departementsReducer from "@/features/crud/departementsSlice";
 import entreprisesReducer from "@/features/crud/entreprisesSlice";
+import exercicesReducer from "@/features/crud/exercicesSlice";
+import lotsReducer from "@/features/crud/lotsSlice";
+import todosReducer from "@/features/crud/todosSlice";
 
 export const store = configureStore({
   reducer: {
@@ -12,6 +15,9 @@ export const store = configureStore({
     communes: communesReducer,
     departements: departementsReducer,
     entreprises: entreprisesReducer,
+    exercices: exercicesReducer,
+    lots: lotsReducer,
+    todos: todosReducer,
   },
 });
 

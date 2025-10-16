@@ -29,7 +29,7 @@ export const MENUITEMS = [
           { title: "Entreprises", path: "/entreprises", type: "link" },
           { title: "Lots", path: "/lots", type: "link" },
           { title: "Todos", path: "/todos", type: "link" },
-          { title: "Exercise", path: "/exercise", type: "link" },
+          { title: "Exercise", path: "/exercices", type: "link" },
         ],
       },
     ],

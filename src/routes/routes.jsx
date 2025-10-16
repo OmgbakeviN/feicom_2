@@ -4,6 +4,9 @@ import AgencesTable from "@/pages/agences/AgencesTable.jsx";
 import CommunesTable from "@/pages/communes/CommunesTable.jsx";
 import DepartementsTable from "@/pages/departements/DepartementsTable.jsx";
 import EntreprisesTable from "@/pages/entreprises/EntreprisesTable.jsx";
+import ExercicesTable from "@/pages/exercices/ExercicesTable.jsx";
+import LotsTable from "@/pages/lots/LotsTable.jsx";
+import TodosTable from "@/pages/todos/TodosTable.jsx";
 
 export const routes = [
   { path: "/dashboard", Component: <Dashboard /> },
@@ -12,4 +15,7 @@ export const routes = [
   { path: "/communes", Component: <CommunesTable /> },
   { path: "/departements", Component: <DepartementsTable /> },
   { path: "/entreprises", Component: <EntreprisesTable /> },
+  { path: "/exercices", Component: <ExercicesTable /> },
+  { path: "/lots", Component: <LotsTable /> },
+  { path: "/todos", Component: <TodosTable /> },
 ];
