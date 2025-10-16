@@ -12,7 +12,7 @@ export const MENUITEMS = [
           { title: "Table View", path: "/feicom/projets", type: "link" },
         ],
       },
-      { title: "Visit Reports", path: "/feicom/visites", type: "link" },
+      { title: "Visit Reports", path: "/visites", type: "link" },
     ],
   },
   {

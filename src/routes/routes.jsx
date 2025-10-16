@@ -7,6 +7,7 @@ import EntreprisesTable from "@/pages/entreprises/EntreprisesTable.jsx";
 import ExercicesTable from "@/pages/exercices/ExercicesTable.jsx";
 import LotsTable from "@/pages/lots/LotsTable.jsx";
 import TodosTable from "@/pages/todos/TodosTable.jsx";
+import VisitesTable from "@/pages/visites/VisitesTable.jsx";
 
 export const routes = [
   { path: "/dashboard", Component: <Dashboard /> },
@@ -18,4 +19,5 @@ export const routes = [
   { path: "/exercices", Component: <ExercicesTable /> },
   { path: "/lots", Component: <LotsTable /> },
   { path: "/todos", Component: <TodosTable /> },
+  { path: "/visites", Component: <VisitesTable /> },
 ];
