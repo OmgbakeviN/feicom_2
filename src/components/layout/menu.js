@@ -8,7 +8,7 @@ export const MENUITEMS = [
         type: "sub",
         icon: "project",
         children: [
-          { title: "Grid View", path: "/projects/grid", type: "link" },
+          { title: "Grid View", path: "/projets/grid", type: "link" },
           { title: "Table View", path: "/projets-table", type: "link" },
         ],
       },

@@ -317,7 +317,7 @@ export default function ProjectsTable() {
     { name: "Agence", selector: r => r?.commune?.departement?.agence?.nom, sortable: true },
     { name: "Entreprise", selector: r => r?.entreprise?.nom, sortable: true },
     { name: "Financement", selector: r => r.payment_percent, sortable: true, cell: r => <PercentBar value={r.payment_percent} tone="zinc-900" /> },
-    { name: "Avancement", selector: r => r.progress, sortable: true, cell: r => <PercentBar value={r.progress} tone="zinc-500" /> },
+    { name: "Avancement", selector: r => r.progress, sortable: true, cell: r => <PercentBar value={r.progress} tone="zinc-900" /> },
     {
       name: "Actions",
       cell: (row) => (

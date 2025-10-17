@@ -9,6 +9,7 @@ import lotsReducer from "@/features/crud/lotsSlice";
 import todosReducer from "@/features/crud/todosSlice";
 import visitesReducer from "@/features/crud/visitesSlice";
 import projetsReducer from "@/features/crud/projetsSlice";
+import projectsGridReducer from "@/features/projectsGrid/projectsGridSlice";
 
 export const store = configureStore({
   reducer: {
@@ -22,6 +23,7 @@ export const store = configureStore({
     todos: todosReducer,
     visites: visitesReducer,
     projets: projetsReducer,
+    projectsGrid: projectsGridReducer,
   },
 });
 

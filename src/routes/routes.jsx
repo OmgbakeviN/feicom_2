@@ -9,6 +9,7 @@ import LotsTable from "@/pages/lots/LotsTable.jsx";
 import TodosTable from "@/pages/todos/TodosTable.jsx";
 import VisitesTable from "@/pages/visites/VisitesTable.jsx";
 import ProjetsTable from "@/pages/projets/ProjetsTable.jsx";
+import ProjectsGrid from "@/pages/projets/ProjectsGrid.jsx";
 
 export const routes = [
   { path: "/dashboard", Component: <Dashboard /> },
@@ -22,4 +23,5 @@ export const routes = [
   { path: "/todos", Component: <TodosTable /> },
   { path: "/visites", Component: <VisitesTable /> },
   { path: "/projets-table", Component: <ProjetsTable /> },
+  { path: "/projets/grid", Component: <ProjectsGrid /> },
 ];
