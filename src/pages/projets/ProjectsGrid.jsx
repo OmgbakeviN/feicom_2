@@ -129,7 +129,14 @@ export default function ProjectsGrid() {
   }, [baseData, filters.communes, filters.search]);
 
   const onChange = (name, value) => dispatch(setFilters({ [name]: value }));
-  const onReset = () => dispatch(resetFilters(role === "REGIONAL" ? Number(agenceIdFromAuth || 0) : ""));
+  // on reset nous permet de recuperer les projet et reinitialiser les filtres
+  const onReset = () => {
+    dispatch(resetFilters(role === "REGIONAL" ? Number(agenceIdFromAuth || 0) : ""));
+    // Force la grille à repasser sur la source locale (fromServer=false)
+    dispatch(fetchProjectsByFilters({ exerciceId: null, agenceId: null, month: "" }));
+    // Re-fetch la liste de base depuis projetsSlice
+    dispatch(fetchProjets());
+  };
 
   return (
     <div className="space-y-4">
